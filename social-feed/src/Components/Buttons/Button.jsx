@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import './Butons.css'
+import './Button.css'
 
 const LikeDislikeButton = (props) => {
 
   const [likeButtonClass, setButtonClass] = useState("inactive");
-  const [dislikeButtonClass,dislikebutton] = useState("inactive");
+  const [dislikeButtonClass, dislikebutton] = useState("inactive");
   
   function Clicklike(){
       if(likeButtonClass === "inactive"){
