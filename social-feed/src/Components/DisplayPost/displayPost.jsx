@@ -1,4 +1,4 @@
-import LikeDislikeButton from "../Buttons/Buttons";
+import LikeDislikeButton from "../Button/Button";
 
 
 
